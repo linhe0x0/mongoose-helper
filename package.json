@@ -1,0 +1,37 @@
+{
+  "name": "@sqrtthree/mongoose-helper",
+  "version": "0.1.0",
+  "description": "Some helper functions for mongoose.",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "rimraf dist && tsc --watch",
+    "prebuild": "npm run lint",
+    "build": "rimraf dist && tsc",
+    "type-check": "tsc --noEmit",
+    "lint": "npm run type-check",
+    "test": "jest --coverage --onlyChanged ./dist",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqrthree/mongoose-helper.git"
+  },
+  "keywords": [],
+  "author": "sqrtthree <imsqrtthree@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sqrthree/mongoose-helper/issues"
+  },
+  "homepage": "https://github.com/sqrthree/mongoose-helper#readme",
+  "devDependencies": {
+    "@sqrtthree/prettier-config": "~2.0.1",
+    "@sqrtthree/tsconfig": "~0.1.0",
+    "@types/jest": "~26.0.22",
+    "@types/node": "~14.14.37",
+    "jest": "~26.6.3",
+    "typescript": "~4.2.4"
+  }
+}
