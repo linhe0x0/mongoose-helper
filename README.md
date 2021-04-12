@@ -4,7 +4,7 @@ Some helper functions for mongoose.
 
 ## API
 
-### makeConnectionURI(options)
+### `makeConnectionURI(options)`
 
 Format options to standard connection string of the MongoDB. [Connection String URI Format](https://docs.mongodb.com/manual/reference/connection-string/)
 
