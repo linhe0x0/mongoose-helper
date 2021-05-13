@@ -2,6 +2,21 @@
 
 Some helper functions for mongoose.
 
+## Install
+
+```bash
+npm install @sqrtthree/mongoose-helper
+```
+
+## Usage
+
+```js
+const mongooseHelper = require('@sqrtthree/mongoose-helper')
+
+// Or with esm
+import mongooseHelper from '@sqrtthree/mongoose-helper'
+```
+
 ## API
 
 ### `makeConnectionURI(options)`
@@ -38,3 +53,7 @@ Optional. Authentication credentials.
 #### options.options?
 
 Optional. A query string that specifies connection specific options as `<name>=<value>` pairs.
+
+### `preferredConnectionOptions`
+
+To fix all deprecation warnings in the mongoose. Open [mongoosejs.com/docs/deprecations.html](https://mongoosejs.com/docs/deprecations.html) to get more details.
