@@ -57,3 +57,9 @@ Optional. A query string that specifies connection specific options as `<name>=<
 ### `preferredConnectionOptions`
 
 To fix all deprecation warnings in the mongoose. Open [mongoosejs.com/docs/deprecations.html](https://mongoosejs.com/docs/deprecations.html) to get more details.
+
+---
+
+> [sqrtthree.com](http://sqrtthree.com/) &nbsp;&middot;&nbsp;
+> GitHub [@sqrthree](https://github.com/sqrthree) &nbsp;&middot;&nbsp;
+> Twitter [@sqrtthree](https://twitter.com/sqrtthree)
