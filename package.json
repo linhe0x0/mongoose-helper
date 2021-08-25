@@ -28,7 +28,7 @@
   "homepage": "https://github.com/sqrthree/mongoose-helper#readme",
   "devDependencies": {
     "@sqrtthree/prettier-config": "~2.0.1",
-    "@sqrtthree/tsconfig": "~0.1.0",
+    "@sqrtthree/tsconfig": "~1.0.0",
     "@types/jest": "~26.0.22",
     "@types/node": "~14.14.37",
     "jest": "~26.6.3",
