@@ -1,14 +1,5 @@
 import querystring from 'querystring'
 
-// To fix all deprecation warnings in the mongoose.
-// Open https://mongoosejs.com/docs/deprecations.html to get more details.
-export const preferredConnectionOptions = {
-  useNewUrlParser: true,
-  useFindAndModify: false,
-  useCreateIndex: true,
-  useUnifiedTopology: true,
-}
-
 interface ExtraHostOption {
   host: string
   port?: number
@@ -65,9 +56,4 @@ export function makeConnectionURI(options: ConnectionURIOptions): string {
   }
 
   return uri
-}
-
-export default {
-  preferredConnectionOptions,
-  makeConnectionURI,
 }
