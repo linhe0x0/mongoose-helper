@@ -7,12 +7,12 @@ interface ExtraHostOption {
 
 interface ConnectionURIOptions {
   host: string
-  port?: number
-  extras?: ExtraHostOption[]
+  port?: number | undefined
+  extras?: ExtraHostOption[] | undefined
   database: string
-  username?: string
-  password?: string
-  options?: Record<string, string>
+  username?: string | undefined
+  password?: string | undefined
+  options?: Record<string, string> | undefined
 }
 
 /**
