@@ -1,6 +1,6 @@
 {
   "name": "@sqrtthree/mongoose-helper",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Some helper functions for mongoose.",
   "main": "dist/index.js",
   "scripts": {
