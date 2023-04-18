@@ -2,7 +2,7 @@ import querystring from 'querystring'
 
 interface ExtraHostOption {
   host: string
-  port?: number
+  port?: number | undefined
 }
 
 interface ConnectionURIOptions {
