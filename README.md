@@ -53,9 +53,3 @@ Optional. Authentication credentials.
 #### options.options?
 
 Optional. A query string that specifies connection specific options as `<name>=<value>` pairs.
-
----
-
-> [sqrtthree.com](http://sqrtthree.com/) &nbsp;&middot;&nbsp;
-> GitHub [@sqrthree](https://github.com/sqrthree) &nbsp;&middot;&nbsp;
-> Twitter [@sqrtthree](https://twitter.com/sqrtthree)
